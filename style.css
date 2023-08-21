@@ -1,40 +1,62 @@
 
-html {
+body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  
+  
+  .container {
+    /* width: 575px; */
+    height: 825px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  scale: 1.2;
+    background-color: salmon;
+    /* padding-left: 30px; */
+
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    /* margin-top: 10px; */
   }
   
-  span {
-    display: block;
-  }
-  .canvas {
-    margin: 100px auto 100px;
-    width: 80%;
-    text-align: center;
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
   }
   
-  .button {
-    width: 100px;
-    height: 100px;
-    border: solid black 2px;
-    display: inline-block;
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
   }
   
-  #grey {
-    background: grey;
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+  
+    font-size: 25px;
   }
   
-  #white {
-    background: red;
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
   }
-  #blue {
-    background: blue;
-  }
-  #yellow {
-    background: yellow;
-  }
-  #purple{
-    background-color: purple;
-  }
-  #black{
-    background-color: royalblue;
-  }
+  
